@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(-55deg, #43cea2,#185a9d);
+        display: grid;
+        box-sizing: border-box;
+        align-items: center;
+        height: 9.5vh;
+        justify-self: center;
+        background-attachment:scroll;
+        margin-left: 0px;
+        
+    }   
+    .navg {
+      position: fixed;
+      background: #000000;
+      height: 9.2vh;
+      width: 100%;
+      display: flex;
+      z-index: inherit;
+  }
+  
+  .navg a {
+      position:relative;
+      font-weight: 600px;
+      left: 450px;
+      color: #ffffff;
+      text-align: center;
+      padding: 24px 22px;
+      height: 2.6vh;
+      text-decoration: none;
+      font-size: 16px;
+      margin-top: -5px;
+    }
+  
+  .navg a:hover {
+    background: linear-gradient(-55deg, #43cea2,#185a9d);
+    color: rgb(255, 255, 255);
+    }
+  
+  .logoo img{
+      right:-55px;
+      cursor: pointer;
+      top:-9px;
+      float:left;
+      width: 140px;
+      height: 80px;
+      position: relative;
+      
+
+  }
+
+
+  /* Container holding the image and the text */
+.h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position:absolute;
+  bottom: 100px;
+  margin-left: 68px;
+  z-index: 1;
+}
+
+.bottom-left1 {
+  position:absolute;
+  bottom: 120px;
+  margin-left: 0px;
+}
+
+.bottom-left2 {
+  position:absolute;
+  bottom: 80px;
+  margin-left: 0px;
+}
+    .slide{
+      
+      width:100%;
+      overflow: hidden;
+      
+    }
+   
+    .images{
+      display:flex;
+      width: 100%;
+
+    }
+
+    .images img{
+      margin-top: 59px;
+      height: 90%;
+      width: 100%;
+      
+    }
+
+.getset{
+  position: absolute;
+  border-radius: 10px 10px 10px 10px; 
+  height:52px;
+  border:#43cea2; 
+  background:linear-gradient(-55deg, #43cea2,#185a9d);  
+  margin-left:2px; 
+  width:130px; 
+  margin-top: 8px;
+
+}
+
+.getset:hover{
+  background: #185a9d;
+}
+
+
+.getset2{
+  position: absolute;
+  border-radius: 10px 10px 10px 10px; 
+  height:52px;
+  border:#43cea2; 
+  background:linear-gradient(-55deg, #43cea2,#185a9d);  
+  margin-left: 8px;
+  width:130px; 
+  margin-top: 220px;
+
+}
+
+.getset2:hover{
+  background: #185a9d;
+  transition: 0.5s ease;
+}
+
+.getset3{
+  position: absolute;
+  border-radius: 10px 10px 10px 10px; 
+  height:52px;
+  border:#43cea2; 
+  background:linear-gradient(-55deg, #43cea2,#185a9d);  
+  margin-left: 180px;
+  width:280px; 
+  margin-top: 220px;
+}
+
+.getset3:hover{
+  background: #185a9d;
+  transition: 0.5s ease;
+}
+
+.getset4{
+  position: absolute;
+  border-radius: 10px 10px 10px 10px; 
+  height:52px;
+  color: #000000;
+  border: #ffffff;
+  background:#ffffff;  
+  margin-left: 5px;
+  width:270px; 
+  margin-top: 270px;
+
+}
+
+.getset4:hover{
+  background: linear-gradient(-55deg, #185a9d,#fff, #43cea2,#185a9d);
+  transition: 0.5s;
+}
+
+
+    .container{
+      justify-content: center;
+      align-items: center;
+    }
+    
+
+    
+    .box{
+      height: 430px;
+      width: 450px;
+      align-items: center;
+      margin-left: 150px;
+    }
+
+    .bottom-left3 {
+      position:absolute;
+      margin-top: -550px;
+      z-index: 1;
+      left:68px;
+      
+      }
+
+    .bottom-left4 {
+      position:absolute;
+      margin-left: 640px;
+      margin-top: -550px;
+      z-index: 1;
+      
+      }
+
+    .bottom-left5 {
+      position:absolute;
+      margin-left:68px;
+      margin-top: 60px;
+      z-index: 1;
+      
+      }
+
+    .h4{
+      float: right;
+      margin-top:118px;
+      width:80%;
+      height: 80%;
+    }
+
+    .footer{
+      background-color: #191c24;
+    }
+
+      .foot{
+        margin-right: 0;
+        font-size: 16px;
+        
+      }
+
+      .foot .logofoot{
+        margin-right: 300px;
+      }
+
+      .th{
+        text-align: left;
+      }
